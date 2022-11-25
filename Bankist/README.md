@@ -1,6 +1,6 @@
 # Bankist
 
-Bankist is an application where a user can perform the following operations: 
+Bankist is a fully functional application where a user can perform the following operations: 
 * Deposit
 * Sort movements
 * Withdrawal
