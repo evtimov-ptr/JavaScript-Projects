@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="./assets/toastr.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>WeatherLens</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li class="navbar-item"><a href="#">Home</a></li>
+          <li class="navbar-item"><a href="#">Map</a></li>
+          <li class="navbar-item"><a href="#">News</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+
+    <div class="container">
+      <input
+        type="text"
+        class="search__input"
+        placeholder="Provide a City name"
+      />
+      <button class="searchBtn">Search</button>
+
+      <div class="result"></div>
+    </div>
+
+    <footer>Copyright &copy; 2023 Evtim Evtimov</footer>
+    <!-- Scripts -->
+    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/toastr.js"></script>
+  </body>
+</html>
